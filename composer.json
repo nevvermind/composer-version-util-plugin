@@ -1,11 +1,21 @@
 {
-    "name": "jadi/composer-plugin-capability1",
+    "name": "nev/composer-plugin-capability1",
     "type": "composer-plugin",
     "authors": [
         {
             "name": "nevvermind",
-            "email": "adragus@inviqa.com"
+            "email": "email@email.com"
         }
     ],
-    "require": {}
+    "autoload": { 
+        "psr-4": {
+            "My\\": "src/"
+        } 
+    },
+    "require": {
+        "composer-plugin-api": "1.0"
+    },
+    "extra": {
+        "class": "My\\Plugin"
+    }
 }
