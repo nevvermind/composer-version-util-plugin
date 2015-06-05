@@ -1,0 +1,11 @@
+{
+    "name": "jadi/composer-plugin-capability1",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "nevvermind",
+            "email": "adragus@inviqa.com"
+        }
+    ],
+    "require": {}
+}
